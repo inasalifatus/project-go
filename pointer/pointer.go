@@ -23,7 +23,7 @@ func main() {
 
 	printFriends := func(friends []*People) {
 		for _, value := range friends {
-			fmt.Println("Name:", value.name, ",", "Gender:", value.gender)
+			fmt.Printf("Name: %v Gender: %v \n", value.name, value.gender)
 		}
 	}
 
